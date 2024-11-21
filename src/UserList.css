@@ -1,0 +1,74 @@
+.user-list-container {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.controls input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.controls button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #0056b3;
+}
+
+ol {
+    list-style: decimal inside;
+    padding-left: 0
+}
+
+ol li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+ol li:last-child {
+    border-bottom: none;
+}
+
+.spinner {
+    text-align: center;
+    font-size: 18px;
+    color: #007bff;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    font-size: 18px;
+}
+
+.no-results {
+    color: #555;
+    text-align: center;
+}
